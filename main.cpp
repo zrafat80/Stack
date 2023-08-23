@@ -596,7 +596,7 @@ int main() {
     string exp="1-((4+5)-(6-7)))";
     string pp= remove_expression(exp);
     for(int i=0;i<pp.size();i++)if(pp[i]!='('&&pp[i]!=')')cout<<pp[i];
-    cout<<endl;
+  
     return 0;
 
 }
