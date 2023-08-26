@@ -573,7 +573,7 @@ int main() {
     st.push(3);
     st.push(4);
     st.Reverse();
-    st.diplay();
+    st.diplay();    
     cout<<fac(4)<<endl<<sat.is_empty()<<endl;
     int aa[]={32,90,3,12,80};
     Next_greater(aa,5);
@@ -582,6 +582,7 @@ int main() {
     Stack_linked_based sta;
     sta.push(3);
     sta.push(23);
+
     sta.push(211);
     cout<<sta.is_empty()<<endl;
     sta.display();
